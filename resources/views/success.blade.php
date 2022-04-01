@@ -63,7 +63,7 @@
                                     <!-- We will send you a confirmation email. Please wait a while and check your inbox.
                                     <br>(in some cases, it goes under <span style="font-weight: 700">Spam</span> or <span style="font-weight: 700">Junk</span> category).
  -->
-                                    <br><br>
+                                    <!-- <br><br> -->
 
                                     For more information, please contact our crew at:
                                     <br>
