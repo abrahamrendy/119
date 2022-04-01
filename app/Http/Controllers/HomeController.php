@@ -93,15 +93,23 @@ class HomeController extends Controller
     public function scan (Request $request) {
         $registration_code = strip_tags($request->input('registration_code'));
         $create_date = date('Y-m-d H:i:s' , strtotime('now'));
-        $insertID = DB::table('temp_verification')->insertGetId(
-                                            ['registration_code' => $registration_code,
-                                             'create_date' => $create_date
-                                            ] );
-        if ($insertID) {
-            \Session::flash('success', 'Your code has been verified!');
-            return back();
+
+        $isExist = DB::table('temp_verification')->where('registration_code',$registration_code)->first();
+
+        if (!$isExist) {
+            $insertID = DB::table('temp_verification')->insertGetId(
+                                                ['registration_code' => $registration_code,
+                                                 'create_date' => $create_date
+                                                ] );
+            if ($insertID) {
+                \Session::flash('success', $registration_code . ' has been verified!');
+                return back();
+            } else {
+                abort(500, 'Internal server error.');
+            }
         } else {
-            abort(500, 'Internal server error.');
+            \Session::flash('fail', $registration_code .  ' has been verified before.');
+            return back();
         }
     }
 

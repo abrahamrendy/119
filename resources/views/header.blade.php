@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Passover Seat Registration</title>
+    <title>119 Passover Celebration Seat Registration</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

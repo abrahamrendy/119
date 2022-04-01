@@ -37,7 +37,7 @@
         </style>
         <div class="m-grid m-grid--hor m-grid--root m-page">
             <div class="m-login m-login--singin  m-login--5" id="m_login" >
-                <!-- <div class="m-login__wrapper-1 m-portlet-full-height left-side-bg" style="background-image: url({{asset('app/media/img//bg/base-img.png')}});">
+               <!--  <div class="m-login__wrapper-1 m-portlet-full-height left-side-bg" style="background-image: url({{asset('app/media/img//bg/base-img.png')}});">
                     
                 </div> -->
                 <div class="m-login__wrapper-2 m-portlet-full-height">
@@ -48,7 +48,7 @@
                             ?>
                                 <div class="m-login__head">
                                     <h3 class="m-login__title">
-                                        <b>PASSOVER</b><br>SEAT REGISTRATION
+                                        <b>119 PASSOVER CELEBRATION</b><br>SEAT REGISTRATION
                                     </h3>
                                 </div>
                                 <form class="m-login__form m-form" action="{{ route('register') }}" method="POST">
