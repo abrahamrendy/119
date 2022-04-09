@@ -104,9 +104,9 @@
                                         We already reached the <span style="font-weight: 700; color: #F36E23">maximum quota</span> for all registrations.
                                         
                                         <br><br>
-                                        Registration booth will be opened at 05.00 PM.
+                                        Check our Instagram for more information (@sukawarna.legacy)!
                                         <br><br>
-                                        Don't be late! Otherwise, your seat will be taken!
+                                        <!-- Don't be late! Otherwise, your seat will be taken! -->
                                         </p>
                                         <br>
                                         <span style="font-weight: 500; font-size: 1.7rem">God bless!</span>
