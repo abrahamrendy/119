@@ -101,10 +101,10 @@
                                         <span style="font-weight: 600; font-size: 2.2rem; color: #F36E23">SORRY!<br></span>
                                         <br>
                                         <p style="font-size: 1.7rem; font-weight: 500">
-                                        We already reached the <span style="font-weight: 700; color: #F36E23">maximum quota</span> for all registrations.
+                                        This registration link currently is <span style="font-weight: 700; color: #F36E23">closed</span>.
                                         
                                         <br><br>
-                                        Check our Instagram for more information (@sukawarna.legacy)!
+                                        Stay tune to our Instagram for the next update (@sukawarna.legacy)!
                                         <br><br>
                                         <!-- Don't be late! Otherwise, your seat will be taken! -->
                                         </p>
