@@ -32,7 +32,7 @@ class HomeController extends Controller
     public function index()
     {
         // $count = DB::table('registrant')->where('type',2)->count();
-        $limit = false;
+        $limit = true;
         // if ($count >= 150) {
         //     $limit = true;
         // }
