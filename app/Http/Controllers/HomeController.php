@@ -66,7 +66,7 @@ class HomeController extends Controller
                                              'age' => $age,
                                              'phone' => $phone,
                                              'status' => $status,
-                                             'type' => 0,
+                                             'type' => 1,
                                              'create_date' => $create_date
                                             ] );
 
