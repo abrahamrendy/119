@@ -31,11 +31,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        // $count = DB::table('registrant')->where('type',2)->count();
-        $limit = true;
-        // if ($count >= 150) {
-        //     $limit = true;
-        // }
+        $count = DB::table('registrant')->where('type',0)->count(); //COUNT JEMAAT
+        $limit = false;
+        if ($count >= 100) {
+            $limit = true;
+        }
         return view('home',['limit'=>$limit]);
     }
 
@@ -66,7 +66,7 @@ class HomeController extends Controller
                                              'age' => $age,
                                              'phone' => $phone,
                                              'status' => $status,
-                                             'type' => 2,
+                                             'type' => 0,
                                              'create_date' => $create_date
                                             ] );
 

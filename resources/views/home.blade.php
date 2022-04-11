@@ -101,7 +101,7 @@
                                         <span style="font-weight: 600; font-size: 2.2rem; color: #F36E23">SORRY!<br></span>
                                         <br>
                                         <p style="font-size: 1.7rem; font-weight: 500">
-                                        This registration link currently is <span style="font-weight: 700; color: #F36E23">closed</span>.
+                                        This registration link has reached <span style="font-weight: 700; color: #F36E23">MAXIMUM CAPACITY</span>.
                                         
                                         <br><br>
                                         Stay tune to our Instagram for the next update (@sukawarna.legacy)!
