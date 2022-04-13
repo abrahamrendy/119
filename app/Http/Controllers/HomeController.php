@@ -31,9 +31,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $count = DB::table('registrant')->where('type',0)->count(); //COUNT JEMAAT
+        $count = DB::table('registrant')->count(); //COUNT JEMAAT
         $limit = false;
-        if ($count >= 100) {
+        if ($count >= 300) {
             $limit = true;
         }
         return view('home',['limit'=>$limit]);
