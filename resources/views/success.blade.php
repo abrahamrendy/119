@@ -55,7 +55,7 @@
                                     <span style="font-weight: 600; font-size: 2.2rem; color: #F36E23">THANK YOU<br><span style="font-size: 1.7rem; font-weight: 500; color: #453939">Your submission has been accepted!</span></span>
                                     <br><br>
                                     <?php if (isset($code)) {?>
-                                        Below is your QR Code, you can <span style="font-weight: 700">save</span> it on your device and you need to <span style="font-weight: 700">activate</span> it at our activation counter <span style="font-weight: 700">TODAY</span>.
+                                        Below is your QR Code, you have to <span style="font-weight: 700">save</span> it on your device and you need to <span style="font-weight: 700">activate</span> it at our activation counter <span style="font-weight: 700">THIS SATURDAY at 4.30 PM</span>.
                                         <br><br>
                                         <img src="<?php echo asset('img/qrcodes/'.$code.'.jpg'); ?>"></img>
                                         <br><br>
