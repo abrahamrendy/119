@@ -33,7 +33,7 @@ class HomeController extends Controller
     {
         $count = DB::table('registrant')->count(); //COUNT JEMAAT
         $limit = false;
-        if ($count >= 450) {
+        if ($count >= 350) {
             $limit = true;
         }
         return view('home',['limit'=>$limit]);
