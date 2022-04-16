@@ -104,7 +104,7 @@
                                         This registration link has reached <span style="font-weight: 700; color: #F36E23">MAXIMUM CAPACITY</span>.
                                         
                                         <br><br>
-                                        Stay tune to our Instagram for the next update (@sukawarna.legacy)!
+                                        You can watch it live on our YouTube Channel (LEGACY - Youth GBI Sukawarna) or come directly to our venue at Aruna no.19!
                                         <br><br>
                                         <!-- Don't be late! Otherwise, your seat will be taken! -->
                                         </p>
